@@ -115,17 +115,17 @@ namespace ProjectESignSDKDemo
                                 // Chế độ hiển thị, hiện đang chọn là có cả ảnh và text
                                 renderingMode: RenderingMode.GraphicAndDescription,
                                 // Phần hình ảnh chữ ký
-                                signatureImage: Convert.ToBase64String(File.ReadAllBytes(@"Samples/signature.png")),
+                                signatureImage: Convert.ToBase64String(File.ReadAllBytes(txtImgSignature.Text)),
                                 signatureDescription: new PdfSignatureDescription()
                                 {
-                                    DisplayText = "Ký bởi Big Cat\nMình thích thì mình ký\nthôi",
+                                    DisplayText = txtContentSign.Text,
                                 },
                                 // Trang cần ký, trang đầu tiên là trang 1
                                 page: 1,
                                 // Tên chữ ký, không trùng với tên chữ ký khác trong file
                                 signatureName: Guid.NewGuid().ToString(),
                                 // Ảnh logo của đơn vị/người ký, có thể bỏ qua
-                                logoImage: File.ReadAllBytes(@"Samples/logo.png")
+                                logoImage: File.ReadAllBytes(txtImgLogo.Text)
                             )
                         }
                     };
