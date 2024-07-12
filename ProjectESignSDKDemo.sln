@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTP.Library", "HTTP.Library\HTTP.Library.csproj", "{B50121C1-245F-4E9E-A9E1-52AA64FA4CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectESignSDKDemo", "ProjectESignSDKDemo\ProjectESignSDKDemo.csproj", "{16FC7F5A-784C-4618-85F2-7DB8EC634014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50121C1-245F-4E9E-A9E1-52AA64FA4CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50121C1-245F-4E9E-A9E1-52AA64FA4CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50121C1-245F-4E9E-A9E1-52AA64FA4CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50121C1-245F-4E9E-A9E1-52AA64FA4CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FC7F5A-784C-4618-85F2-7DB8EC634014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FC7F5A-784C-4618-85F2-7DB8EC634014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FC7F5A-784C-4618-85F2-7DB8EC634014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FC7F5A-784C-4618-85F2-7DB8EC634014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C8741F-FF0A-4061-A2BD-4903F31EB547}
+	EndGlobalSection
+EndGlobal
